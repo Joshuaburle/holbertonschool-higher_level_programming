@@ -64,7 +64,9 @@ class Rectangle:
         return "\n".join(rows)
 
     def __repr__(self):
-        """Return a string representation able to recreate the instance with eval()."""
+        """Return a string representation able to recreate the instance.
+        with eval().
+        """
         return "Rectangle({}, {})".format(self.__width, self.__height)
 
     def __del__(self):
