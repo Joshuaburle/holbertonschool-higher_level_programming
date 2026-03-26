@@ -1,1 +1,1 @@
-Js dom - manipulation
+JavaScript — DOM Manipulation Exercises
